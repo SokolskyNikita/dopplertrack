@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(uv sync *)",
+      "Bash(uv run pytest *)",
+      "Bash(git status *)",
+      "Bash(git diff *)",
+      "Bash(git log *)",
+      "Bash(git show *)",
+      "Bash(git worktree list *)"
+    ]
+  },
+  "worktree": {
+    "baseRef": "head",
+    "symlinkDirectories": ["data"]
+  }
+}
