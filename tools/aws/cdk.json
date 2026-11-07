@@ -1,3 +1,0 @@
-{
-  "app": "uv run --frozen python app.py"
-}
